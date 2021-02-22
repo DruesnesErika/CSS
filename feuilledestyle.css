@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 9.5pt;
+    max-width: 1000px;
+    margin: auto;
+}
+
+#jarditoulogo {
+    width: 100%;
+    height: auto;
+}
+
+#imagepromotion {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+ul {
+    list-style-type: none;
+    background-color: black;
+    margin: 5px 1px 5px 1px;
+    padding: 20px 40px 20px 40px;
+    clear: both;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    border-color: #000000;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+hr {
+    background-color: #f9fbfc;
+    color: #D0D3D4;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slogan {
+    margin-right: auto;
+    margin-left: auto;
+    font-size: x-large;
+    line-height: 3em;
+}
+
+.colonnedroite {
+    background-color: #D0D3D4;
+    width: 475px;
+}
+
+footer {
+    background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+    .colonnedroite {
+        display: none;
+    }
+    li {
+        display: block;
+    }
+    body {
+        font-size: 20px;
+    }
+}
