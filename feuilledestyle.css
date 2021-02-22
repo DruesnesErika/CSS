@@ -74,4 +74,7 @@ footer {
     body {
         font-size: 20px;
     }
+    .box {
+        margin: 0px 20px 0px 20px;
+    }
 }
